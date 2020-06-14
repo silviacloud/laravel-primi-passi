@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #eeeeeb;
+  color: #2f576c;
+  font-family: 'Montserrat';
+}
+
+@import 'header';
+@import 'footer';
+@import 'main';

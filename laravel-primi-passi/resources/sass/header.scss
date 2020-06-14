@@ -1,0 +1,28 @@
+header{
+  top:0;
+  left:0;
+  position:fixed;
+
+  height: 70px;
+  width: 100%;
+
+  background-color: #eeeeeb;
+  padding-left: 5%;
+
+  border-bottom: 1px solid #447d9b;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  a{
+    text-decoration: none;
+    color: #2f576c;
+    margin: 2%;
+    i{
+      color: #2f576c;
+      width: 50px;
+    }
+  }
+}

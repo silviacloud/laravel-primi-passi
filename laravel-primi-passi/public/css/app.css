@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeeb;
+  color: #2f576c;
+  font-family: "Montserrat";
+}
+
+header {
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background-color: #eeeeeb;
+  padding-left: 5%;
+  border-bottom: 1px solid #447d9b;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: #2f576c;
+  margin: 2%;
+}
+
+header a i {
+  color: #2f576c;
+  width: 50px;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background-color: #eeeeeb;
+  color: #2f576c;
+  display: flex;
+  flex-direction: row;
+  padding-top: 1.5%;
+  border-top: 1px solid #447d9b;
+}
+
+footer h2 {
+  margin-left: 8%;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+footer ul li {
+  margin: 4% 7%;
+}
+
+main {
+  height: calc(100vh - 70px - 70px);
+  margin-top: 70px;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+main h2 {
+  text-align: left;
+  margin: 2% 0 0 17.3%;
+}
+
+main h4 {
+  text-align: left;
+  margin-left: 20%;
+}
+
+main p {
+  text-align: left;
+  margin-left: 20%;
+  margin-bottom: 1%;
+}
+
+main div {
+  margin: 3% 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2f576c;
+}
+

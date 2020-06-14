@@ -1,0 +1,33 @@
+footer{
+  bottom:0;
+  left:0;
+  position:fixed;
+
+  height: 70px;
+  width: 100%;
+
+  background-color: #eeeeeb;
+  color:#2f576c;
+
+  display: flex;
+  flex-direction: row;
+
+  padding-top: 1.5%;
+  border-top: 1px solid #447d9b;
+
+  h2{
+    margin-left: 8%;
+  }
+
+  ul{
+    display: flex;
+    flex-direction: row;
+
+
+    list-style: none;
+
+    li{
+      margin: 4% 7%;
+    }
+  }
+}
